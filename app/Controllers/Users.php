@@ -17,7 +17,7 @@ class Users extends BaseController{
         $username = $this->request->getVar('username');
         $password = $this->request->getVar('password');
         $sql = "SELECT userId, username, Nombre, Apellido, correoElectronico, contrasenia, Rol,id_doctor 
-        from user where contrasenia = ? and (username = ? or correoElectronico = ?)";
+        from [user] where contrasenia = ? and (username = ? or correoElectronico = ?)";
         $query = $usuario->db->query($sql,[$password,$username,$username]);
         $result = $query->getRowArray();
         if($result != null){

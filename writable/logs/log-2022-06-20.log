@@ -1,0 +1,40 @@
+ERROR - 2022-06-20 15:07:18 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+CRITICAL - 2022-06-20 15:07:18 --> Unable to connect to the database.
+Main connection [sqlsrv]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Users.php(21): CodeIgniter\Database\BaseConnection->query('SELECT userId, ...', Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-20 15:15:24 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'user'.
+CRITICAL - 2022-06-20 15:15:24 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'user'.
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT userId, ...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userId, ...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Users.php(21): CodeIgniter\Database\BaseConnection->query('SELECT userId, ...', Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-20 15:16:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The SELECT permission was denied on the object 'user', database 'DentalControl', schema 'dbo'.
+CRITICAL - 2022-06-20 15:16:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The SELECT permission was denied on the object 'user', database 'DentalControl', schema 'dbo'.
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT userId, ...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userId, ...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Users.php(21): CodeIgniter\Database\BaseConnection->query('SELECT userId, ...', Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-20 15:16:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The SELECT permission was denied on the object 'user', database 'DentalControl', schema 'dbo'.
+CRITICAL - 2022-06-20 15:16:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The SELECT permission was denied on the object 'user', database 'DentalControl', schema 'dbo'.
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT userId, ...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userId, ...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Users.php(21): CodeIgniter\Database\BaseConnection->query('SELECT userId, ...', Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

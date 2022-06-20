@@ -32,11 +32,11 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'us-cdbr-east-05.cleardb.net',
-        'username' => 'b074ed3d2472a5',
-        'password' => '6d627c3c',
-        'database' => 'heroku_dd2ab98310a4a23',
-        'DBDriver' => 'MySQLi',
+        'hostname' => 'MSI-DE-PIPE',
+        'username' => 'andresao11',
+        'password' => 'Pipesao199909',
+        'database' => 'DentalControl',
+        'DBDriver' => 'sqlsrv',
         'DBPrefix' => '',
         'pConnect' => false,
         'DBDebug'  => (ENVIRONMENT !== 'production'),
@@ -47,7 +47,7 @@ class Database extends Config
         'compress' => false,
         'strictOn' => false,
         'failover' => [],
-        'port'     => 3306,
+        'port'     => 1433,
     ];
 
     /**
