@@ -1,0 +1,500 @@
+CRITICAL - 2022-06-27 22:09:36 --> file_get_contents(http://localhost:44346//api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:11:03 --> file_get_contents(https://localhost:44346//api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:11:26 --> file_get_contents(https://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:11:36 --> file_get_contents(https://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:12:29 --> file_get_contents(http://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:14:13 --> file_get_contents(http://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:15:16 --> file_get_contents(http://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...', false, Resource id #128)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:16:06 --> file_get_contents(https://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:23:26 --> file_get_contents(https://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:23:59 --> file_get_contents(https://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:24:50 --> file_get_contents(http://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:24:58 --> file_get_contents(http://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:26:34 --> file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:26:44 --> file_get_contents(http://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:27:06 --> file_get_contents(http://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:28:33 --> file_get_contents(http://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:29:48 --> file_get_contents(http://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:32:39 --> foreach() argument must be of type array|object, bool given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(45): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 22:36:07 --> Undefined variable $ch
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 25)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-27 22:36:37 --> foreach() argument must be of type array|object, bool given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(34): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 22:38:24 --> file_get_contents(https://localhost:44346/api/Inventarios): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...', false, Resource id #128)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:39:20 --> file_get_contents(http://localhost:44346/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:39:28 --> file_get_contents(http://localhost:44346/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:48:39 --> file_get_contents(http%3A%2F%2Flocalhost%3A44346%2Fapi%2FInventarios): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http%3A%2F%2Flo...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:48:54 --> file_get_contents(http://localhost:44346/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:49:06 --> file_get_contents(http://localhost:44346/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:49:12 --> file_get_contents(http://localhost:44346/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:50:27 --> file_get_contents(http://localhost:44346/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 29)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(29): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:50:28 --> file_get_contents(http://localhost:44346/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 29)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(29): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:50:29 --> file_get_contents(http://localhost:44346/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 29)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(29): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:50:29 --> file_get_contents(http://localhost:44346/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 29)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(29): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:50:34 --> file_get_contents(http://localhost:44346/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 29)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(29): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 22:54:28 --> foreach() argument must be of type array|object, null given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(41): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 22:55:37 --> Cannot access offset of type string on string
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(42): view('InventariosView...', Array)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 22:57:05 --> Cannot access offset of type string on string
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(42): view('InventariosView...', Array)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 22:58:24 --> Cannot access offset of type string on string
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(42): view('InventariosView...', Array)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 22:59:48 --> foreach() argument must be of type array|object, string given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(42): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 23:01:03 --> foreach() argument must be of type array|object, bool given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(42): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 23:01:14 --> foreach() argument must be of type array|object, null given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(42): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 23:01:34 --> Cannot access offset of type string on string
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(42): view('InventariosView...', Array)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 23:03:35 --> Cannot access offset of type string on string
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(42): view('InventariosView...', Array)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 23:04:16 --> file_get_contents(https://localhost:44346//api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 23:04:26 --> file_get_contents(https://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 23:04:41 --> file_get_contents(https://localhost:44346/api/inventarios): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 23:04:48 --> file_get_contents(https://localhost:44346/api/inventarios): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...', false, Resource id #128)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 23:06:49 --> file_get_contents(https://localhost:44346/api/inventarios): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 27)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(27): file_get_contents('https://localho...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 23:09:21 --> Cannot access offset of type string on string
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(34): view('InventariosView...', Array)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 23:09:46 --> Cannot access offset of type string on string
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(34): view('InventariosView...', Array)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 23:28:00 --> file_get_contents(https://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...', false, Resource id #128)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 23:28:03 --> file_get_contents(https://localhost:44346/api/ObtenerTodosLosProductos): Failed to open stream: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 26)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(26): file_get_contents('https://localho...', false, Resource id #127)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 23:57:00 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 185)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(185): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 23:57:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-27 23:58:02 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 185)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(185): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 23:58:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-27 23:58:49 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 185)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(185): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 23:58:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -14,10 +14,13 @@ class Inventarios extends BaseController{
         else{
             $inventarios = new Inventario();
             
-            $datos['inventarios'] =$inventarios->getInventarios();
+            
+            $url ="http://localhost:60750/api/Gateway/Inventarios/ObtenerProductos";
+            $result = file_get_contents($url);
+            //return $result;
+            $datos['inventarios'] = json_decode($result,true);
             $tituloPagina['TituloPagina'] = "Ver Inventario";
             $datos['header'] = view('templates/Header',$tituloPagina);
-            
             
             return view('InventariosViews/VerInventarios',$datos);
         }
@@ -45,36 +48,21 @@ class Inventarios extends BaseController{
         $tipo = $this->request->getVar('Tipo');
         $selector=$_POST['Agregar-Reducir'];
         $CantidadAIngresarOReducir=$this->request->getVar('CantidadAgregada-reducida');
-        $cantidadActual=$this->request->getVar('CantidadActual');
-        $cantidadMaxima=$this->request->getVar('CantidadMaxima');
-        $cantidadMinima=$this->request->getVar('CantidadMinima');
-        $prioridad=0;
-        $inventarios = new Inventario();
-        if(intval($selector) == 1){
-            $cantidadActual+= $CantidadAIngresarOReducir;
-            if($cantidadActual > $cantidadMaxima){
-                $cantidadMaxima=$cantidadActual;
-                $cantidadMinima=$cantidadMaxima/2;
-            }
-            $prioridad=$this->setPrioridad($cantidadActual,$cantidadMaxima,$cantidadMinima);
-        }
-        else if(intval($selector) == 2){
-            if($CantidadAIngresarOReducir <= $cantidadActual){
-                $cantidadActual -= $CantidadAIngresarOReducir;
-            }
-            $prioridad=$this->setPrioridad($cantidadActual,$cantidadMaxima,$cantidadMinima);
-        }
-        
-        $datos=[
-            'Tipo' => $tipo,
-            'CantidadActual' => $cantidadActual,
-            'CantidadMinima' => $cantidadMinima,
-            'CantidadMaxima' => $cantidadMaxima,
-            'Prioridad' => $prioridad
+        $dataToSend=[
+            "Id" => $id,
+            "Tipo"=> $tipo,
+            "Selector" => $selector,
+            "AgregarReducir" => $CantidadAIngresarOReducir
         ];
-
-        $inventarios->update($id,$datos);
-
+        $url="http://localhost:60750/api/Gateway/Inventarios/ActualizarProducto";
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json','Content-Length: ' . strlen(json_encode($dataToSend))));
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PUT');
+        curl_setopt($ch, CURLOPT_POSTFIELDS,json_encode($dataToSend));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $return = curl_exec($ch);
+        curl_close($ch);
         return redirect()->to(base_url('/verInventarios'));
     }
 
@@ -95,8 +83,15 @@ class Inventarios extends BaseController{
     }
     public function borrarProducto($id=null){
         $inventario = new Inventario();
-        $datosTratamiento = $inventario->where('id_inventario',$_GET['id'])->first();
-        $inventario->delete($datosTratamiento);
+        $url ="http://localhost:60750/api/Gateway/Inventarios/EliminarPorducto/".$_GET['id'];
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL,$url);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE");
+        $server_output = curl_exec($ch);
+        curl_close ($ch);
+        // $datosTratamiento = $inventario->where('id_inventario',$_GET['id'])->first();
+        // $inventario->delete($datosTratamiento);
+        //$data['url'] = curl_error($ch);
         $data['url']=base_url('/verInventarios');
         return json_encode($data,JSON_FORCE_OBJECT);
     }
@@ -132,7 +127,16 @@ class Inventarios extends BaseController{
             'Prioridad' => 3,
             'Medida' => $Medida
         ];
-        $inventario->insert($data);
+        $url ="http://localhost:60750/api/Gateway/Inventarios/AgregarProducto";
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL,$url);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt( $ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
+        curl_setopt($ch, CURLOPT_POSTFIELDS,json_encode($data));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $server_output = curl_exec($ch);
+        curl_close ($ch);
+        //$inventario->insert($data);
         $url = base_url('/verInventarios');
         return redirect()->to($url);
     }
@@ -194,10 +198,10 @@ class Inventarios extends BaseController{
     public function getSingleProduct($id=null){
         
         $inventarios = new Inventario();
-        $sql= "SELECT id_inventario,Nombre,Precio,Tipo,CantidadActual,CantidadMinima,Prioridad,CantidadMaxima,Medida from inventario where id_inventario  = ". $_GET['id'];
-        $query = $inventarios->db->query($sql);
-        $inventario = $query->getResultArray();
-        $data['inventario'] = $inventario;
+        $id= $_GET['id'];
+        $url="http://localhost:60750/api/Gateway/Inventarios/ObtenerProductoPorId/".$id;
+        $result = file_get_contents($url);
+        $data['inventario'] = json_decode($result,true);
         return json_encode($data,JSON_FORCE_OBJECT);
     }
 }

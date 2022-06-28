@@ -47,10 +47,10 @@ $(document).ready(function(){
             data:{id:$(this).val()},
             complete:function(){},
             success: function(data){
-                $('#Tipo').val(data.inventario[0].Tipo);
-                $('#CantidadActual').val(data.inventario[0].CantidadActual);
-                $('#CantidadMaxima').val(data.inventario[0].CantidadMaxima);
-                $('#CantidadMinima').val(data.inventario[0].CantidadMinima);
+                $('#Tipo').val(data.inventario.tipo);
+                $('#CantidadActual').val(data.inventario.cantidadActual);
+                $('#CantidadMaxima').val(data.inventario.cantidadMaxima);
+                $('#CantidadMinima').val(data.inventario.cantidadMinima);
                 
             },
             error: function(){

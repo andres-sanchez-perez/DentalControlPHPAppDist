@@ -31,38 +31,38 @@
                         </thead>
                         <tbody>
                             <?php foreach($inventarios as $inventario):?>
-                                <?php if(Inventarios::IsPrioridad3($inventario['id_inventario'])):?>
+                                <?php if(Inventarios::IsPrioridad3($inventario['idInventario'])):?>
                                     <tr id="datosTabla" class="table-success">
-                                        <td hidden="true"><?=$inventario['id_inventario']?></td>
-                                        <td><?=$inventario['Nombre']?></td>
-                                        <td><?=$inventario['Precio']?></td>
-                                        <td><?=$inventario['Tipo']?></td>
-                                        <td><?=$inventario['CantidadActual']?></td>
-                                        <td><?=$inventario['Medida']?></td>
+                                        <td hidden="true"><?=$inventario['idInventario']?></td>
+                                        <td><?=$inventario['nombre']?></td>
+                                        <td><?=$inventario['precio']?></td>
+                                        <td><?=$inventario['tipo']?></td>
+                                        <td><?=$inventario['cantidadActual']?></td>
+                                        <td><?=$inventario['medida']?></td>
                                         <td>
                                             <a id="DeleteProducto" class="DeleteProducto btn btn-danger" type="button">Borrar</a>
                                         </td>
                                     </tr>
-                                <?php elseif(Inventarios::IsPrioridad2($inventario['id_inventario'])):?>
+                                <?php elseif(Inventarios::IsPrioridad2($inventario['idInventario'])):?>
                                     <tr id="datosTabla" class="table-warning">
-                                        <td  hidden="true"><?=$inventario['id_inventario']?></td>
-                                        <td><?=$inventario['Nombre']?></td>
-                                        <td><?=$inventario['Precio']?></td>
-                                        <td><?=$inventario['Tipo']?></td>
-                                        <td><?=$inventario['CantidadActual']?></td>
-                                        <td><?=$inventario['Medida']?></td>
+                                        <td  hidden="true"><?=$inventario['idInventario']?></td>
+                                        <td><?=$inventario['nombre']?></td>
+                                        <td><?=$inventario['precio']?></td>
+                                        <td><?=$inventario['tipo']?></td>
+                                        <td><?=$inventario['cantidadActual']?></td>
+                                        <td><?=$inventario['medida']?></td>
                                         <td>
                                             <a id="DeleteProducto"  class="DeleteProducto btn btn-danger" type="button">Borrar</a>
                                         </td>
                                     </tr>
                                 <?php else:?>
                                     <tr id="datosTabla" class="table-danger">
-                                        <td  hidden="true"><?=$inventario['id_inventario']?></td>
-                                        <td><?=$inventario['Nombre']?></td>
-                                        <td><?=$inventario['Precio']?></td>
-                                        <td><?=$inventario['Tipo']?></td>
-                                        <td><?=$inventario['CantidadActual']?></td>
-                                        <td><?=$inventario['Medida']?></td>
+                                        <td  hidden="true"><?=$inventario['idInventario']?></td>
+                                        <td><?=$inventario['nombre']?></td>
+                                        <td><?=$inventario['precio']?></td>
+                                        <td><?=$inventario['tipo']?></td>
+                                        <td><?=$inventario['cantidadActual']?></td>
+                                        <td><?=$inventario['medida']?></td>
                                         <td>
                                             <a id="DeleteProducto"  class="DeleteProducto btn btn-danger" type="button">Borrar</a>
                                         </td>
@@ -99,34 +99,33 @@
                                 <th>Medida</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <?php   foreach($inventarios as $inventario):?>
-                                <?php if(Inventarios::IsPrioridad3($inventario['id_inventario'])):?>
+                        <?php foreach($inventarios as $inventario):?>
+                                <?php if(Inventarios::IsPrioridad3($inventario['idInventario'])):?>
                                     <tr id="datosTabla" class="table-success">
-                                        <td  hidden="true"><?=$inventario['id_inventario']?></td>
-                                        <td><?=$inventario['Nombre']?></td>
-                                        <td><?=$inventario['Precio']?></td>
-                                        <td><?=$inventario['Tipo']?></td>
-                                        <td><?=$inventario['CantidadActual']?></td>
-                                        <td><?=$inventario['Medida']?></td>
+                                        <td hidden="true"><?=$inventario['idInventario']?></td>
+                                        <td><?=$inventario['nombre']?></td>
+                                        <td><?=$inventario['precio']?></td>
+                                        <td><?=$inventario['tipo']?></td>
+                                        <td><?=$inventario['cantidadActual']?></td>
+                                        <td><?=$inventario['medida']?></td>
                                     </tr>
-                                <?php elseif(Inventarios::IsPrioridad2($inventario['id_inventario'])):?>
+                                <?php elseif(Inventarios::IsPrioridad2($inventario['idInventario'])):?>
                                     <tr id="datosTabla" class="table-warning">
-                                        <td  hidden="true"><?=$inventario['id_inventario']?></td>
-                                        <td><?=$inventario['Nombre']?></td>
-                                        <td><?=$inventario['Precio']?></td>
-                                        <td><?=$inventario['Tipo']?></td>
-                                        <td><?=$inventario['CantidadActual']?></td>
-                                        <td><?=$inventario['Medida']?></td>
+                                        <td  hidden="true"><?=$inventario['idInventario']?></td>
+                                        <td><?=$inventario['nombre']?></td>
+                                        <td><?=$inventario['precio']?></td>
+                                        <td><?=$inventario['tipo']?></td>
+                                        <td><?=$inventario['cantidadActual']?></td>
+                                        <td><?=$inventario['medida']?></td>
                                     </tr>
                                 <?php else:?>
                                     <tr id="datosTabla" class="table-danger">
-                                        <td  hidden="true"><?=$inventario['id_inventario']?></td>
-                                        <td><?=$inventario['Nombre']?></td>
-                                        <td><?=$inventario['Precio']?></td>
-                                        <td><?=$inventario['Tipo']?></td>
-                                        <td><?=$inventario['CantidadActual']?></td>
-                                        <td><?=$inventario['Medida']?></td>
+                                        <td  hidden="true"><?=$inventario['idInventario']?></td>
+                                        <td><?=$inventario['nombre']?></td>
+                                        <td><?=$inventario['precio']?></td>
+                                        <td><?=$inventario['tipo']?></td>
+                                        <td><?=$inventario['cantidadActual']?></td>
+                                        <td><?=$inventario['medida']?></td>
                                     </tr>
                                 <?php endif?>
                             <?php endforeach; ?>

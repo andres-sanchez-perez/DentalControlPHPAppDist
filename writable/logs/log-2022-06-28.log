@@ -1,0 +1,549 @@
+CRITICAL - 2022-06-28 00:00:10 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 185)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(185): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:00:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 00:03:14 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 185)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(185): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:03:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 00:04:39 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 185)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(185): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:04:39 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 00:07:54 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 185)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(185): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:07:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 00:14:57 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 184)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(184): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:14:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 00:18:28 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 184)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(184): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:18:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 00:26:45 --> Undefined variable $result
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 219)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-28 00:27:05 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 193)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(193): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:27:05 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 00:28:02 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 195)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(195): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:28:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 00:28:21 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 195)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(195): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:28:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 00:28:58 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 195)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(195): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:28:58 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 00:33:05 --> file_get_contents(http://localhost:44309/api/Inventarios): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 195)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(195): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:33:05 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 01:00:28 --> file_get_contents(http://localhost:44309/api/Inventarios?nombre=curaprox&amp;precio=1.65&amp;tipo=cepillo dental&amp;cantidadActual=80&amp;medida=paquete): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 177)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(177): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 01:00:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 01:12:51 --> curl_setopt(): supplied argument is not a valid File-Handle resource
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(186): curl_setopt(Object(CurlHandle), 10037, '')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-28 01:20:41 --> file_get_contents(http://localhost:44309/api/Inventarios?nombre=Curaprox&amp;precio=1.65&amp;tipo=cepillo%20dental&amp;cantidadActual=80&amp;medida=paquete): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 184)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(184): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 01:20:41 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 01:26:12 --> Undefined array key "NombreProducto"
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 163)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-28 01:31:58 --> file_get_contents(http://localhost:44309/api/Inventarios?nombre=Curaprox&amp;precio=1.65&amp;tipo=cepillo%20dental&amp;cantidadActual=80&amp;medida=paquete): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 184)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(184): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 01:32:25 --> file_get_contents(http://localhost:44309/api/Inventarios?nombre=Curaprox&amp;precio=1.65&amp;tipo=cepillo%20dental&amp;cantidadActual=80&amp;medida=paquete): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 184)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(184): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 01:33:39 --> file_get_contents(http://localhost:44309/api/Inventarios?nombre=Curaprox&amp;precio=1.65&amp;tipo=cepillo%20dental&amp;cantidadActual=80&amp;medida=paquete): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 184)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(184): file_get_contents('http://localhos...', false, Resource id #126)
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 01:38:01 --> Undefined array key "NombreProducto"
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 163)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-28 01:38:06 --> Undefined array key "NombreProducto"
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 163)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->postAgregar()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-28 12:41:25 --> foreach() argument must be of type array|object, string given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(27): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:41:30 --> foreach() argument must be of type array|object, string given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(27): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:42:31 --> foreach() argument must be of type array|object, string given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(27): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:42:34 --> foreach() argument must be of type array|object, string given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(27): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:45:42 --> foreach() argument must be of type array|object, string given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:45:46 --> foreach() argument must be of type array|object, string given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:45:53 --> foreach() argument must be of type array|object, string given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:46:12 --> foreach() argument must be of type array|object, string given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:47:21 --> file_get_contents(http://localhost:60750/api/Gateway/Inventarios/ObtenerProductos): Failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 19)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(19): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 12:47:25 --> file_get_contents(http://localhost:60750/api/Gateway/Inventarios/ObtenerProductos): Failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 19)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(19): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 12:47:30 --> file_get_contents(http://localhost:60750/api/Gateway/Inventarios/ObtenerProductos): Failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 19)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(19): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 12:48:24 --> file_get_contents(http%3A%2F%2Flocalhost%3A60750%2Fapi%2FGateway%2FInventarios%2FObtenerProductos): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 19)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(19): file_get_contents('http%3A%2F%2Flo...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 12:50:28 --> foreach() argument must be of type array|object, string given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:50:30 --> foreach() argument must be of type array|object, string given
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\XAMPP\\htdocs...', 33)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:50:51 --> Undefined array key "id_inventario"
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 34)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:50:59 --> Cannot use object of type stdClass as array
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-28 12:51:16 --> Undefined array key "id_inventario"
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 34)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:51:28 --> Undefined array key "id_inventario"
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 34)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:51:30 --> Undefined array key "id_inventario"
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 34)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:51:32 --> Undefined array key "id_inventario"
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 34)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:51:43 --> Undefined array key 0
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 34)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 12:54:11 --> Undefined property: stdClass::$id_inventario
+#0 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Views\InventariosViews\VerInventarios.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 34)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\Common.php(1089): CodeIgniter\View\View->render('InventariosView...', Array, true)
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(23): view('InventariosView...', Array)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#6 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#7 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 14:50:37 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 15:30:18 --> file_get_contents(http://localhost:60750/api/Gateway/Inventarios/ObtenerProductos): Failed to open stream: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 19)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(19): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
