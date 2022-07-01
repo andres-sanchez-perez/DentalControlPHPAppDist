@@ -1,0 +1,56 @@
+CRITICAL - 2022-06-29 19:33:59 --> file_get_contents(http://localhost:60750/api/Gateway/Inventarios/ObtenerProductos): Failed to open stream: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 19)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(19): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 20:31:47 --> file_get_contents(http://localhost:60750/api/Gateway/Inventarios/ObtenerProductos): Failed to open stream: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 19)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(19): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 20:41:50 --> file_get_contents(http://localhost:60800/api/Gateway/Inventarios/ObtenerProductos): Failed to open stream: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 32)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(32): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 20:41:58 --> file_get_contents(http://localhost:60800/api/Gateway/Inventarios/ObtenerProductos): Failed to open stream: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 32)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(32): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 21:03:42 --> file_get_contents(http://localhost:60800/api/Gateway/Inventarios/ObtenerProductos): Failed to open stream: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 32)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(32): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 22:28:57 --> file_get_contents(http://localhost:60800/api/Gateway/Inventarios/ObtenerProductos): Failed to open stream: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 32)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(32): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 23:34:43 --> file_get_contents(http://localhost:60800/api/Gateway/Inventarios/ObtenerProductos): Failed to open stream: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 32)
+#1 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\app\Controllers\Inventarios.php(32): file_get_contents('http://localhos...')
+#2 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(832): App\Controllers\Inventarios->index()
+#3 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#4 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\DentalControlAppDist\DentalControlPHPAppDist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

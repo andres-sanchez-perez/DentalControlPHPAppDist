@@ -3,6 +3,8 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\Inventario;
+use Exception;
+
 class Inventarios extends BaseController{
 
     public function index(){
@@ -12,6 +14,7 @@ class Inventarios extends BaseController{
             return view('/errors/error',$datos);
         }
         else{
+            try{
             $inventarios = new Inventario();
             
             
@@ -23,6 +26,17 @@ class Inventarios extends BaseController{
             $datos['header'] = view('templates/Header',$tituloPagina);
             
             return view('InventariosViews/VerInventarios',$datos);
+            }
+            catch(Exception $e){
+                $url ="http://localhost:60800/api/Gateway/Inventarios/ObtenerProductos";
+                $result = file_get_contents($url);
+                //return $result;
+                $datos['inventarios'] = json_decode($result,true);
+                $tituloPagina['TituloPagina'] = "Ver Inventario";
+                $datos['header'] = view('templates/Header',$tituloPagina);
+                
+                return view('InventariosViews/VerInventarios',$datos);
+            }
         }
     }
 
@@ -63,6 +77,17 @@ class Inventarios extends BaseController{
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $return = curl_exec($ch);
         curl_close($ch);
+        if($return == false){
+            $url="http://localhost:60800/api/Gateway/Inventarios/ActualizarProducto";
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json','Content-Length: ' . strlen(json_encode($dataToSend))));
+            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PUT');
+            curl_setopt($ch, CURLOPT_POSTFIELDS,json_encode($dataToSend));
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            $return = curl_exec($ch);
+            curl_close($ch);
+        }
         return redirect()->to(base_url('/verInventarios'));
     }
 
@@ -89,6 +114,14 @@ class Inventarios extends BaseController{
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE");
         $server_output = curl_exec($ch);
         curl_close ($ch);
+        if($server_output == false){
+            $url ="http://localhost:60800/api/Gateway/Inventarios/EliminarPorducto/".$_GET['id'];
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL,$url);
+            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE");
+            $server_output = curl_exec($ch);
+            curl_close ($ch);
+        }
         // $datosTratamiento = $inventario->where('id_inventario',$_GET['id'])->first();
         // $inventario->delete($datosTratamiento);
         //$data['url'] = curl_error($ch);
@@ -112,12 +145,12 @@ class Inventarios extends BaseController{
     public function agregarProducto(){
 
         $inventario = new Inventario();
-        $nombreProducto = $this->request->getVar('NombreProducto');
-        $TipoProducto = $this->request->getVar('TipoProducto');
-        $precio = $this->request->getVar('Precio');
-        $CantidadInicial = $this->request->getVar('CantidadInicial');
+        $nombreProducto = $_POST['NombreProducto'];
+        $TipoProducto = $_POST['TipoProducto'];
+        $precio = $_POST['Precio'];
+        $CantidadInicial = $_POST['CantidadInicial'];
         $Medida = $_POST['Medida'];
-        $data =[
+        $datos =[
             'Nombre' => $nombreProducto,
             'Precio' => $precio,
             'Tipo' => $TipoProducto,
@@ -132,13 +165,29 @@ class Inventarios extends BaseController{
         curl_setopt($ch, CURLOPT_URL,$url);
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt( $ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
-        curl_setopt($ch, CURLOPT_POSTFIELDS,json_encode($data));
+        curl_setopt($ch, CURLOPT_POSTFIELDS,json_encode($datos));
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $server_output = curl_exec($ch);
+        $err = curl_errno($ch);
         curl_close ($ch);
+        if($server_output == false){
+            $url ="http://localhost:60800/api/Gateway/Inventarios/AgregarProducto";
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL,$url);
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt( $ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
+            curl_setopt($ch, CURLOPT_POSTFIELDS,json_encode($datos));
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            $server_output = curl_exec($ch);
+            $err = curl_errno($ch);
+            curl_close ($ch);
+        }
         //$inventario->insert($data);
         $url = base_url('/verInventarios');
-        return redirect()->to($url);
+        $data['url'] = $url;
+        $data['ServerResponse'] = $server_output;
+        $data['error'] = $err;
+        return json_encode($data,JSON_FORCE_OBJECT);
     }
 
     public static function IsPrioridad3($id){

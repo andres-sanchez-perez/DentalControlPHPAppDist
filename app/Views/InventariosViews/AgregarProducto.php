@@ -4,7 +4,7 @@
             <h5 class="card-title text-center">Ingrese los datos de la cirujía</h5>
             
             <p class="card-text">
-                <form id="formAgregarProducto" class="mt-3" method="post" action="<?=site_url('/agregarProducto')?>" enctype="multipart/form-data">
+                
                     <div class="form-group">
                         <label class="font-weight-bold" for="NombreProducto">Nombre del producto</label>
                         <input required id="NombreProducto" class="form-control" type="text" name="NombreProducto">
@@ -16,7 +16,7 @@
                     </div>
                     <div class="form-group">
                         <label class="font-weight-bold" for="CantidadInicial">Precio del producto obtenido (precio unitario)</label>
-                        <input required id="decimales" class="form-control" type="text" name="Precio">
+                        <input required id="decimales" class="form-control " type="text" name="Precio">
                     </div>
                     <div class="form-group">
                         <label class="font-weight-bold" for="CantidadInicial">Cantidad del producto obtenido</label>
@@ -39,7 +39,7 @@
                         </select>
                     </div>
                     <button id="CrearProducto" class="btn btn-success mt-3" type="submit">Registrar nuevo producto</button>
-                </form>
+                
             </p>
         </div>
     </div>

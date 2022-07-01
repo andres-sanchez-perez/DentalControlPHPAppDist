@@ -38,6 +38,32 @@ $(document).ready(function(){
     $('#ComboDoctoresClinica').select2();
     $('#ComboProductos').select2();
     
+
+    $('#CrearProducto').click(function(){
+        var base_url = window.location.origin;
+        $.ajax({
+            type:'POST',
+            url: base_url+"/Inventarios/agregarProducto",
+            dataType: 'json',
+            data:{
+                NombreProducto:$('#NombreProducto').val(),
+                TipoProducto:$('#TipoProducto').val(),
+                Precio:$("input[name=Precio]").val(),
+                CantidadInicial:$("input[name=CantidadInicial]").val(),
+                Medida:$('select[name="Medida"]').val()
+            },
+            complete:function(){},
+            success: function(data){
+                alert("Producto agregado con exito");
+                window.location.href=data.url;
+                
+            },
+            error: function(){
+                alert("Esto es un error");
+            }
+        })
+    });
+
     $('#ComboProductos').change(function(){
         var base_url = window.location.origin;
         $.ajax({
