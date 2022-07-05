@@ -55,6 +55,7 @@ $(document).ready(function(){
             complete:function(){},
             success: function(data){
                 alert("Producto agregado con exito");
+                 
                 window.location.href=data.url;
                 
             },
